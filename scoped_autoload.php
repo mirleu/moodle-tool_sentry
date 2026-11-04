@@ -43,3 +43,4 @@ if ($loader instanceof \Composer\Autoload\ClassLoader) {
 }
 
 unset($loader);
+

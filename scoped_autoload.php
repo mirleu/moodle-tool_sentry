@@ -8,11 +8,11 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle. If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
  * Scoped Composer autoloader for tool_sentry.
@@ -23,6 +23,7 @@
  * plugin's Composer installation instead of its own (MDL-88782).
  *
  * @package    tool_sentry
+ * @copyright  (c) The Regents of the University of California
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -43,4 +44,3 @@ if ($loader instanceof \Composer\Autoload\ClassLoader) {
 }
 
 unset($loader);
-
